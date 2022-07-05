@@ -2,16 +2,48 @@
   padding: 50px 5%;
   display: flex;
   justify-content: space-between;
+  column-gap: 20px;
 }
 
 .prditems {
   width: 70%;
 }
 
+.prditm{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+    column-gap: 20px;
+    margin-bottom: 20px;
+}
+
+.prditm img{
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.prdcont--name{
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.prdcont--price{
+  font-weight: 600;
+}
+
+.prdcont--desc{
+  margin-bottom: 5px;
+}
+
 .checkoutcard {
   width: 30%;
+  height: fit-content;
   background-color: white;
   padding: 20px;
+  position: sticky;
+  top: 50px;
 }
 
 .checkoutcard--title {
