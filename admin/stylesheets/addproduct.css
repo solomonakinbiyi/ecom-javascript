@@ -1,0 +1,31 @@
+form{
+    width: fit-content;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+}
+
+form h1{
+    margin-bottom: 20px;
+}
+
+form input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+form textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+form button{
+    width: 100%;
+    padding: 10px 0;
+    border: 0;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
