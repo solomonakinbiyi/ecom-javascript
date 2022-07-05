@@ -1,0 +1,41 @@
+.productscheckout {
+  padding: 50px 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.prditems {
+  width: 70%;
+}
+
+.checkoutcard {
+  width: 30%;
+  background-color: white;
+  padding: 20px;
+}
+
+.checkoutcard--title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.price--sec {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  align-items: center;
+  font-weight: 600;
+}
+
+.price--sec span:nth-child(2) {
+  font-size: 1.2rem;
+}
+
+.checkoutcard button{
+    width: 100%;
+    padding: 10px 0;
+    color: white;
+    background-color: black;
+    border: none;
+}

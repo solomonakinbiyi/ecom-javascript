@@ -1,0 +1,35 @@
+.product--detail{
+    padding: 50px 5%;
+}
+
+.productcard{
+    display: flex;
+    column-gap: 40px;
+}
+
+.productcard img{
+    width: 50%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.productcard--cont{
+    width: 50%;
+}
+
+.productcard--name{
+    font-size: 2rem;
+}
+
+.productcard--desc{
+    margin-bottom: 30px;
+}
+
+.productcard--price{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.productcard--ratings{
+    color:#f6b01e;
+}
