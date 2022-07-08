@@ -25,29 +25,31 @@
             <div class="content--header">
                 ADMIN
             </div>
-            <form>
+            <form id="edtprdform">
                 <center>
                     <h1>Edit a product</h1>
                 </center>
                 <div>
-                    <input type="text" placeholder="product name">
+                    <input id="prdnnnm" type="text" placeholder="product name" name="name" required>
                 </div>
                 <div>
-                    <input type="text" placeholder="product image url">
+                    <input id="prdimgg" type="text" placeholder="product image url" name="imgurl" required>
                 </div>
                 <div>
-                    <input type="number" placeholder="product price">
+                    <input id="prdprc" type="number" placeholder="product price" name="price" required>
                 </div>
                 <div>
-                    <input type="number" placeholder="product rating">
+                    <input id="prdrtt" type="number" placeholder="product rating" name="rating" required>
                 </div>
                 <div>
-                    <textarea name="" id="" cols="30" rows="5" placeholder="product description"></textarea>
+                    <textarea id="prdddd" cols="30" rows="5" placeholder="product description" name="desc" required></textarea>
                 </div>
-                <button>Upload</button>
+                <button>Update</button>
             </form>
         </div>
     </div>
+
+    <script src="scripts/editproduct.js"></script>
 </body>
 
 </html>
