@@ -1,3 +1,6 @@
+const cartdata = JSON.parse(localStorage.getItem("cart"));
+document.querySelector(".cart--count").innerText = cartdata.length;
+
 const params = new Proxy(new URLSearchParams(window.location.search), {
   get: (searchParams, prop) => searchParams.get(prop),
 });
